@@ -25,4 +25,4 @@ const NewCollections = () => {
   )
 }
 
-export default NewCollections
+export default NewCollections;

@@ -43,4 +43,8 @@ const ShopCategory = (props) => {
   )
 }
 
-export default ShopCategory
+export default ShopCategory;
+
+
+
+

@@ -26,8 +26,8 @@ function App() {
         <Route path='/men' element={<ShopCategory banner={men_banner}category="men"/>}/>
         <Route path='/women' element={<ShopCategory banner={women_banner}category="women"/>}/>
         <Route path='/kids' element={<ShopCategory banner={kids_banner}category="kids"/>}/>
-        <Route path="/Product" element={<Product/>}>
-          <Route path=':productId' element={<Product/>}/>
+        <Route path="/product" element={<Product/>}>
+          <Route path='/product/:productId' element={<Product/>}/>
         </Route>
         <Route path='/cart' element={<Cart/>}/>
         <Route path='/login' element={<LoginSignup/>}/>
@@ -39,3 +39,5 @@ function App() {
 }
 
 export default App;
+
+

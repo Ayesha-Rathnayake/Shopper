@@ -3,6 +3,7 @@ import all_product from '../Components/Assets/all_products.js';
 
 
 
+
 export const ShopContext=createContext(null);
 
 const ShopContextProvider=(props)=>{
@@ -12,7 +13,11 @@ const ShopContextProvider=(props)=>{
         <ShopContext.Provider value={contextValue}>
             {props.children}
         </ShopContext.Provider>
-        )
-}
+        );
+};
 
 export default ShopContextProvider;
+
+
+
+
