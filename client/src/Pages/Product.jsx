@@ -13,7 +13,7 @@ const Product = () => {
   return (
     <div>
       <Breadcrum product={product}/>
-      <ProductDisplay product={product}/>
+      <ProductDisplay />
       <DescriptionBox/>
       <RelatedProducts/>
     </div>
